@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form in HTML</title>
+</head>
+
+<body bgcolor="bluegreen" text="darkblue">
+    <h1 align="center">Registration Form</h1>
+
+    <hr>
+    <br>
+
+    <form action="#">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name"><br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email"><br><br>
+        <!-- no placeholders -->
+
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age"><br><br>
+
+        <label for="gender">Gender : </label>  
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male </label>
+        <input type="radio" name="gender" id="female">
+        <label for="gender">Female </label>
+        <br><br>
+        Address:
+        <textarea name="address" id="address" cols="100" rows="5"></textarea><br><br>
+
+        <label for="class">Class: </label>
+        <select name="class" id="class">
+            <option value="1">1st</option>
+            <option value="2">2nd</option>
+            <option value="3">3rd</option>
+            <option value="4">4th</option>
+            <option value="5">5th</option>
+            <option value="6">6th</option>
+            <option value="7">7th</option>
+            <option value="8">8th</option>
+            <option value="9">9th</option>
+            <option value="10">10th</option>
+        </select>
+        <br><br>
+    </form>
+
+</body>
+
+</html>

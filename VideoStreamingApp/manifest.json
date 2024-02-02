@@ -1,0 +1,17 @@
+{
+    "name": "WeTube",
+    "short_name": "WeTube",
+    "start_url": "/VideoStreamingApp?home=true",
+    "icons": [
+      {
+        "src": "https://github.com/fireship-io/7-pwa-features-demo/blob/main/logo.png?raw=true",
+        "sizes": "492x492",
+        "type": "image/png",
+        "purpose": "maskable any"
+      }
+    ],
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "display": "fullscreen",
+    "orientation": "landscape"
+  }
